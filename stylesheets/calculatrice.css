@@ -1,0 +1,66 @@
+@font-face{
+    font-family: 'digital-clock-font';
+    src: url('fonts/Digital Dismay.otf');
+}
+
+body{
+    background-color: black;
+}
+
+.title{
+        font-size: 25px;
+        font-style: italic;
+        font-family: sans-serif;
+        color: #0C620C;
+      }
+
+#container{
+    background-color: rgb(128, 128, 128);;
+    width: 250px;
+    height: 300px;
+    padding-left: 5px;
+    padding-top: 50px;
+    border-radius: 40px;
+}
+
+      .number{
+          height: 50px;
+          width: 50px;
+          font-size: 25px;
+          color: white;
+          border: 2px solid #2D882D;
+          border-radius: 10px;
+          background-color: black;
+        }
+
+      .number:hover {
+        background-color: #0C620C;
+      }
+    
+      .operator{
+          height: 50px;
+          width: 50px;
+          font-size: 25px;
+          color:rgb(252, 56, 7);
+          border: 2px solid rgb(0, 0, 0);
+          border-radius: 10px;
+          background-color: rgb(214, 199, 199);
+      }
+      .operator:hover{
+          background-color: rgb(128, 128, 128);
+      }
+    
+      #case {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        height: 37px;
+        width: 213px;        
+        border: 2px solid rgb(102, 51, 153);
+        border-radius: 10px;        
+        text-align: right;        
+        color: white;  
+        font-size: 25px;        
+        padding-bottom: 10px;
+        background-color: rgb(0, 0, 0);
+    }
